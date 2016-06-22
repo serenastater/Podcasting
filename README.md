@@ -1,4 +1,4 @@
-== Podcasting
+## Podcasting
 
 This is a podcasting network. A place where creators can add episodes of podcasts
 for audiences to listen to.
@@ -34,7 +34,7 @@ Podcast  has_many :episodes
 - Thumbnail image
 - Episode
 - Sticher Link
-- Podbay Link
+- Podbay Link  
 Episode belongs_to :podcast
 - Title
 - Description
