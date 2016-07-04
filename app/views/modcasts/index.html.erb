@@ -1,0 +1,21 @@
+<div id="banner" class="podcasts_banner">
+  <h1>Discover your new favorite podcast</h1>
+</div>
+
+<div id="podcasts" class="cf">
+  <div class="wrapper">
+    <ul>
+      <% @modcasts.each do |modcast| %>
+        <%= link_to modcast do %>
+          <li>
+            <img src="#" alt="picture">
+            <div class="podcast_overview">
+              <h2><%=modcast.title %></h2>
+              <p class="episode_count">1 Episode</p>
+            </div>
+          </li>
+        <% end %>
+      <% end %>
+    </ul>
+  </div>
+</div>

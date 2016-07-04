@@ -1,0 +1,2 @@
+module ModcastsHelper
+end
