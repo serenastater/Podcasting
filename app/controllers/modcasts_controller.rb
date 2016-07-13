@@ -3,6 +3,7 @@ class ModcastsController < ApplicationController
     @modcasts = Modcast.all.order("created_at DESC")
   end
 
-  def showw
+  def show
+    @modcast = Modcast.find(params[:id])
   end
 end
